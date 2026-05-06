@@ -1,0 +1,13 @@
+name = "乐善博弈"
+
+desc = """
+序数偏好 S > R > T > P
+
+合作（C）为严格占优策略，唯一纯策略 NE 为 (C,C)。
+
+**命名由来：** 「乐善」取"助人为乐"之意。本型的标志性特征是 S > R——被利用（当单方合作者）的收益反而比双方合作（R）更好。玩家从"施惠于不领情者"中获得的满足感超过从"双方互助"中获得的满足感。Robinson-Goforth (2005) 归类为 Harmony 家族的变体，其中 S 超越 R 使其在文獻中偶被称为 Benevolence 或 Charity 类（Rapoport & Guyer, 1966 的 12 种严格序数对称博弈之一）。Bruns (2015) 的二元命名法中，本型对应 Harmony-Harmony 坐标的一个邻近变体。
+
+**现实案例：** 一位匿名慈善家资助公益项目。C = 捐款，D = 不捐。S（被利用）：我是唯一捐款的人，项目标志只写我一个人——得到最大满足感和社会声誉。R（双方捐款）：两人都在捐，荣誉被分享——仍然好但不如独享。T（只利用对方）：对方捐了而我没捐——愧疚感。P（无人捐款）：什么都没发生——平淡。最终双方都选择捐款（C,C 均衡）。
+
+参考文献：Rapoport & Guyer (1966), "A Taxonomy of 2×2 Games"; Robinson & Goforth (2005), "The Topology of the 2×2 Games"; Bruns (2015), "Names for Games: Locating 2×2 Games".
+"""
