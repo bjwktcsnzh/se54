@@ -1,4 +1,4 @@
-import type { RstpOrder, NashEq } from "../util";
+import type { RstpOrder } from "../util";
 import {
   gamePayoffs,
   findDominantRow,

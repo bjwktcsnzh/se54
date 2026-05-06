@@ -323,13 +323,13 @@ function Drawer({ gameKey, onClose }: { gameKey: string; onClose: () => void }) 
             <p style={{ fontWeight: 600, marginBottom: 4, fontSize: 12, color: "var(--text)" }}>
               行 <span style={{ color: CATEGORY_COLORS[sk1[0]] }}>{sk1}</span>
             </p>
-            <Rstp24Item order={order1} mode="abcd" />
+            <Rstp24Item order={order1!} mode="abcd" />
           </div>
           <div style={{ flex: 1 }}>
             <p style={{ fontWeight: 600, marginBottom: 4, fontSize: 12, color: "var(--text)" }}>
               列 <span style={{ color: CATEGORY_COLORS[sk2[0]] }}>{sk2}</span>
             </p>
-            <Rstp24Item order={order2} mode="abcd" />
+            <Rstp24Item order={order2!} mode="abcd" />
           </div>
         </div>
       </div>
