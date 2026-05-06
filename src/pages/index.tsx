@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { RSTP_ORDERS, SEMANTIC_KEYS, CATEGORY_COLORS } from "../util";
 import Rstp from "../components/Rstp";
 
@@ -77,8 +78,8 @@ export default function Home() {
       {/* ── 工具入口 ── */}
       <h2 style={{ fontSize: 20, marginBottom: 14 }}>工具</h2>
       <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
-        <a
-          href="/rstp24view"
+        <Link
+          to="/rstp24view"
           style={{
             display: "block",
             padding: "14px 20px",
@@ -93,10 +94,10 @@ export default function Home() {
           <div style={{ fontSize: 13, lineHeight: 1.5 }}>
             查看全部 24 种收益顺序排列，颜色按排名编码，支持切换语义 / RSTP 显示。
           </div>
-        </a>
+        </Link>
 
-        <a
-          href="/abcd300view"
+        <Link
+          to="/abcd300view"
           style={{
             display: "block",
             padding: "14px 20px",
@@ -111,7 +112,7 @@ export default function Home() {
           <div style={{ fontSize: 13, lineHeight: 1.5 }}>
             探索 300 种不重复的 2×2 博弈组合热力图，按 C→D→A→B 分组。
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -298,7 +298,7 @@ function Drawer({ gameKey, onClose }: { gameKey: string; onClose: () => void }) 
         )}
 
         <a
-          href={`/abcd300/detail/${displayKey}`}
+          href={`${import.meta.env.BASE_URL}abcd300/detail/${displayKey}`}
           target="_blank"
           rel="noopener noreferrer"
           style={actionBtnStyle}
