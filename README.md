@@ -2,6 +2,8 @@
 
 基于 RSTP（Reward/Sucker/Temptation/Punishment）框架的 2×2 博弈分类与可视化。
 
+https://bjwktcsnzh.github.io/se54/
+
 ## 功能
 
 - **Rstp24** — 24 种 RSTP 排列的分类图（C1-C6 / D1-D6 / A1-A8 / B1-B4）
